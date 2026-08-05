@@ -1,0 +1,26 @@
+# One Hunter Flexoki Dark — stephango.com/flexoki
+# Accent cyan #3AA99F | keywords #CE5D97 | strings #3AA99F
+
+palette = 0=#100F0F
+palette = 1=#D14D41
+palette = 2=#879A39
+palette = 3=#D0A215
+palette = 4=#4385BE
+palette = 5=#CE5D97
+palette = 6=#3AA99F
+palette = 7=#CECDC3
+palette = 8=#575653
+palette = 9=#E8705F
+palette = 10=#A0AF54
+palette = 11=#DFB431
+palette = 12=#66A0C8
+palette = 13=#E47DA8
+palette = 14=#5ABDAC
+palette = 15=#E6E4D9
+
+background = #100F0F
+foreground = #CECDC3
+cursor-color = #CECDC3
+cursor-text = #100F0F
+selection-background = #343331
+selection-foreground = #CECDC3

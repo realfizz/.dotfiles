@@ -1,0 +1,26 @@
+# Cursor Light Theme
+# Based on official Cursor IDE colors - light variant
+
+palette = 0=#e4e4e4
+palette = 1=#fc6b83
+palette = 2=#3fa266
+palette = 3=#d2943e
+palette = 4=#5e81ac
+palette = 5=#b48ead
+palette = 6=#88c0d0
+palette = 7=#242424
+palette = 8=#b0b0b0
+palette = 9=#fc6b83
+palette = 10=#70b489
+palette = 11=#f1b467
+palette = 12=#5e81ac
+palette = 13=#b48ead
+palette = 14=#88c0d0
+palette = 15=#242424
+
+background = #f5f5f5
+foreground = #242424
+cursor-color = #242424
+cursor-text = #f5f5f5
+selection-background = #d4d4d4
+selection-foreground = #242424

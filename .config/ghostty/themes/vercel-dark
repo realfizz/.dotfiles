@@ -1,0 +1,26 @@
+# Vercel Dark — orange accent
+# Accent #f97316 | icon ▲ (prompt via Starship)
+
+palette = 0=#000000
+palette = 1=#ef4444
+palette = 2=#22c55e
+palette = 3=#f97316
+palette = 4=#f97316
+palette = 5=#fb923c
+palette = 6=#fdba74
+palette = 7=#ffffff
+palette = 8=#a3a3a3
+palette = 9=#f87171
+palette = 10=#4ade80
+palette = 11=#f97316
+palette = 12=#f97316
+palette = 13=#fb923c
+palette = 14=#fdba74
+palette = 15=#ffffff
+
+background = #000000
+foreground = #ffffff
+cursor-color = #f97316
+cursor-text = #000000
+selection-background = #1a1a1a
+selection-foreground = #ffffff

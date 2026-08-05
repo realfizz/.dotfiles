@@ -1,0 +1,133 @@
+{
+  "cli_default_open_behavior": "new_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "show_edit_predictions": false,
+  "show_completions_on_input": true,
+  "language_models": {
+    "openai_compatible": {
+      "Kiro-HEHE": {
+        "api_url": "http://localhost:8000/v1",
+        "available_models": [
+          {
+            "name": "kiro-sonnet",
+            "max_tokens": 200000,
+            "max_output_tokens": 32000,
+            "max_completion_tokens": 200000,
+            "capabilities": {
+              "tools": true,
+              "images": false,
+              "parallel_tool_calls": false,
+              "prompt_cache_key": false,
+              "chat_completions": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "project_panel": {
+    "dock": "left",
+    "hide_hidden": false
+  },
+  "inlay_hints": {
+    "enabled": false
+  },
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "path": "/usr/bin/clangd",
+        "arguments": ["--header-insertion=never"]
+      }
+    },
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "inlayHints": {
+            "variableTypes": {
+              "enabled": false
+            },
+            "parameterTypes": {
+              "enabled": false
+            },
+            "functionLikeReturnTypes": {
+              "enabled": false
+            },
+            "propertyDeclarationTypes": {
+              "enabled": false
+            },
+            "enumMemberValues": {
+              "enabled": false
+            },
+            "parameterNames": {
+              "enabled": false
+            }
+          }
+        },
+        "javascript": {
+          "inlayHints": {
+            "variableTypes": {
+              "enabled": false
+            },
+            "parameterTypes": {
+              "enabled": false
+            },
+            "functionLikeReturnTypes": {
+              "enabled": false
+            },
+            "propertyDeclarationTypes": {
+              "enabled": false
+            },
+            "enumMemberValues": {
+              "enabled": false
+            },
+            "parameterNames": {
+              "enabled": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "disable_ai": false,
+  "minimap": {
+    "show": "never"
+  },
+  "format_on_save": "off",
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font Mono",
+  "ui_font_family": "JetBrainsMonoNL Nerd Font Mono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "agent": {
+    "dock": "right",
+    "model_parameters": [],
+    "default_model": {
+      "provider": "Kiro-HEHE",
+      "model": "kiro-sonnet"
+    }
+  },
+  "icon_theme": {
+    "mode": "light",
+    "light": "VSCode Great Icons Theme",
+    "dark": "Light Charmed Icons"
+  },
+  "ui_font_size": 15.0,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "light",
+    "light": "Vercel Light",
+    "dark": "Flexoki Dark"
+  }
+}
