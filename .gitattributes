@@ -1,0 +1,2 @@
+.config/ghostty/shaders/*.glsl linguist-detectable=false
+.zshrc linguist-language=Shell
