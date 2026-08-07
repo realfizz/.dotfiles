@@ -2,6 +2,8 @@
 
 My macOS dotfiles.
 
+<img src="./assets/preview.png" alt="preview" width="720" />
+
 ## What's inside
 
 - `.zshrc` — shell cfg
