@@ -12,18 +12,33 @@ fi
 
 [ -f "$HOME/.env" ] && source "$HOME/.env"
 
-typeset -U PATH
-export PATH="$HOME/.cargo/bin:$HOME/.bun/bin:$HOME/.local/bin:$HOME/.local/share/go/bin:$HOME/go/bin:$HOME/.pyenv/bin:$HOME/.opencode/bin:$HOME/flutter/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:/Applications/Docker.app/Contents/Resources/bin"
+typeset -U path
+path=(
+    "/Applications/IDA Professional 9.3.app/Contents/MacOS"
+    "$HOME/.grok/bin"
+    "$HOME/Library/pnpm"
+    "$HOME/.cargo/bin"
+    "$HOME/.bun/bin"
+    "$HOME/.local/bin"
+    "$HOME/.local/share/go/bin"
+    "$HOME/go/bin"
+    "$HOME/.pyenv/bin"
+    "$HOME/.opencode/bin"
+    "$HOME/flutter/bin"
+    "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+    "/Applications/Docker.app/Contents/Resources/bin"
+    /opt/homebrew/bin
+    /usr/local/bin
+    /usr/bin
+    /bin
+    /usr/sbin
+    /sbin
+    $path
+)
 
 export GOROOT="/opt/homebrew/opt/go/libexec"
 export GOPATH="$HOME/.local/share/go"
 export GOMODCACHE="$HOME/.local/share/go-mod-cache"
-
-export PNPM_HOME="$HOME/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
 
 export BUN_INSTALL="$HOME/.bun"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
@@ -98,6 +113,3 @@ nh() {
     bat ~/.nvim-startup.txt
 }
 
-export PATH="$HOME/.grok/bin:$PATH"
-
-export PATH="/Applications/IDA Professional 9.3.app/Contents/MacOS:$PATH"
