@@ -93,6 +93,7 @@ alias cat="bat"
 alias lg="lazygit"
 alias ai="aichat"
 alias http="xh"
+alias oc="opencode2"
 
 alias ..="cd .."
 alias ...="cd ../.."
