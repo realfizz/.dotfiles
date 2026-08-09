@@ -96,6 +96,7 @@ alias http="xh"
 alias oc="opencode2"
 alias ping="gping"
 alias ls="eza --group-directories-first"
+alias ec="endcord"
 alias ll="eza -lah --group-directories-first --git"
 alias lt="eza --tree --level=2"
 
