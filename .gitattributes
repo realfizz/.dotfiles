@@ -1,2 +1,2 @@
-.config/ghostty/shaders/*.glsl linguist-detectable=false
-.zshrc linguist-language=Shell
+config/ghostty/shaders/*.glsl linguist-detectable=false
+config/omniwm/settings.toml linguist-detectable=false

@@ -1,3 +1,0 @@
-[submodule ".config/opencode"]
-	path = .config/opencode
-	url = https://github.com/realfizz/opencode-config.git
